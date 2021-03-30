@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div class="object-center" id="app">
+     
+    <img id="img" class=" object-center w-40 md:w-32 lg:w-48 " alt="Bari" src="./assets/RDP01352.jpg">
+   <HelloWorld/>
   </div>
 </template>
 
@@ -14,5 +16,15 @@ export default {
     HelloWorld
   }
 }
+
 </script>
+
+<style>
+#img {
+  margin-top: 80px;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
