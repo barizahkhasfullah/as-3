@@ -1,14 +1,17 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      <h3> Name: Nur Barizah biti Khasfulah <br> </h3>
-     
-    
-    <h3>Student ID: 19FTT1186 <br></h3>
+    <h1 class="text-center font-mono font-extrabold">{{ msg }}</h1>
   
-    <h3>Group Code: DWDT05</h3>
-    
+
+
+<h3>
+  <p class="text-center font-mono font-extrabold text--900 md:text-green-600 ...">ABOUT ME<br></p>
+    <p class="text-center font-mono font-extrabold text-purple-900 md:text-green-600 ...">Name: Nur Barizah binti Khasfullah<br></p>
+  <p class="text-center font-mono font-extrabold text-purple-900 md:text-green-600 ...">Student ID: 19FTT1186</p>
+  <p class="text-center font-mono font-extrabold text-purple-900 md:text-green-600 ...">Group Code: DWDT05</p>
+   </h3> 
+   
+  
   </div>
 </template>
 
